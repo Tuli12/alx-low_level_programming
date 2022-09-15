@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print alphabet prints alphabet in small letters
- * return (0)
+ * prints alphabet in small letters
+ * print_alphabet does that
+ * new line at end of code
  */
 
 void print_alphabet(void)
-
-{	
+{
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
