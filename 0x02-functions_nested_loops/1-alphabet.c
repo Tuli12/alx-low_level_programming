@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * print alphabet
+ * print alphabet prints alphabet in small letters
  * return (0)
  */
-void print_alphabet(void)
+
+void print_alphabet(void);
 {
-	char alpha
+	char alpha;
+
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-	_putchar(alpha);
-	}
+		_putchar(alpha);
+	{
 	_putchar('\n');
 }
